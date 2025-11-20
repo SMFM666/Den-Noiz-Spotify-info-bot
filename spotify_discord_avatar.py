@@ -23,7 +23,7 @@ auth_manager = SpotifyOAuth(
     redirect_uri=SPOTIFY_REDIRECT_URI,
     scope=SPOTIFY_SCOPE,
     cache_path=".spotify_cache",
-    open_browser=True,
+    open_browser=False,
 )
 
 spotify = Spotify(auth_manager=auth_manager)
