@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "C:\SETHS SPOT\DaP\start_spotify_bot.bat", 0, False
