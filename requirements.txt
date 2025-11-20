@@ -1,7 +1,3 @@
-discord.py[voice]==2.2.2
+discord.py==2.2.2
 requests
-Pillow
-py-cpuinfo
-sounddevice
-PyNaCl
-aiohttp
+spotipy
